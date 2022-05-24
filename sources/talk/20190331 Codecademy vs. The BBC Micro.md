@@ -7,14 +7,14 @@
 [#]: publisher: " "
 [#]: url: " "
 
-Codecademy vs. The BBC Micro
+Codecademy vs. BBC微型计算机
 ======
 
 20世纪70年代末，计算机这个过去几十年中一直只为企业巨头所用的神秘笨重机器，突然变成了普通人可以买到并带回家的东西。少数满怀热情的人发现了这件事情有多么的了不起，赶紧买了一台属于他们自己的计算机。而对于更多的人来说，微型计算机的到来引发了对未来的无助和焦虑感。当时一本杂志上的广告承诺，家用电脑将 “让你的孩子在学校拥有他人没有的优势”。广告中，一个身穿精巧西装、打着领带的男孩热切地举手回答问题，而他身后那些愚蠢的同学则闷闷不乐地看着。这则广告和其他类似的广告表明，世界正在迅速变化，如果你不立即学习如何使用一个令人生畏的新设备，你和你的家人就会被甩在后面。
 
 在英国，这种焦虑演变为了政府领导层对国家竞争力的担忧。总的来说，在英国，20世纪70年代是令人失望的十年。通货膨胀和失业率都很高。同时，一系列的罢工使伦敦经历了一次又一次的停电。1979年的一份政府报告中表达了这样的担忧，如果不能跟上计算机技术的发展趋势，那么“我们糟糕的工业表现将雪上加霜”。[1][1]当时英国在计算机领域似乎已经落后了——所有的大计算机公司都是美国公司，而集成电路则由日本和台湾组装。
 
-由英国政府资助的公共服务广播公司BBC决定采取一项大胆地举措，帮助各地的英国人克服对计算机的厌恶，解决英国国家竞争力不足的问题。BBC启动了计算机扫盲项目，这是一项多管齐下的教育工作，内容包括几部电视连续剧、几本书、一个支持小组网络，以及一台被称为BBC Micro的特制微型计算机。该项目大获成功，1983年，《BYTE》杂志的一位编辑写道：“与美国相比，英国对微型计算机感兴趣的人口比例更高。”[2][2]这位编辑大为惊叹的是，英国举行的第五届世界个人电脑展的参与人数比那一年西海岸电脑节的参与人数还多。超过六分之一的英国人观看了“_计算机扫盲项目_”中制作的第一个系列节目，最终售出了150万台BBC微型计算机。[3][3]
+由英国政府资助的公共服务广播公司BBC决定采取一项大胆地举措，帮助各地的英国人克服对计算机的厌恶，解决英国国家竞争力不足的问题。BBC启动了计算机扫盲项目，这是一项多管齐下的教育工作，内容包括几部电视连续剧、几本书、一个支持小组网络，以及一台被称为BBC Micro的特制微型计算机。该项目大获成功，1983年，《BYTE》杂志的一位编辑写道：“与美国相比，英国对微型计算机感兴趣的人口比例更高。”[2][2]这位编辑大为惊叹的是，英国举行的第五届世界个人电脑展的参与人数比那一年西海岸电脑节的参与人数还多。超过六分之一的英国人观看了“_计算机扫盲项目_”中制作的第一个系列节目，最终售出了150万台BBC微型计算机（BBC Micro）。[3][3]
 
 去年，网上发布了[一个档案][4]，涵盖了“_计算机扫盲计划_”中制作的每部电视剧和发表的所有材料。我看了这些电视剧，觉得非常有趣，并试图想象在20世纪80年代初学习计算机是什么样子。但事实证明，更有趣的是计算机的*教授*方法。今天，我们仍然担心人们追赶不上技术的发展。富有的科技企业家和政府花了很多钱试图教孩子们 "编程"。我们有像Codecademy这样的网站，利用新技术交互式教授编码。人们会认为这种方法比80年代的呆板电视连续剧更有效。但真的如此吗？
 
@@ -26,16 +26,15 @@ Codecademy vs. The BBC Micro
 
 这部纪录片是给英国内阁看的。[4][6]英国工业部、人力服务委员会等政府机构开始试图提升英国公众对计算机的认识。人力服务委员会为BBC教育部门的一个小组提供资金，让他们到日本、美国和其他国家进行实况调查。这个研究小组编写了一份报告，分类说明微电子技术将如何使工业制造、劳动关系和办公室工作领域发生重大变化。1979年底，BBC决定制作一个十集的电视连续剧，帮助普通英国人“学习如何使用和控制计算机，而不是感觉被计算机支配”。[5][7]该项目最终成为了一个多媒体项目，类似于*成人扫盲项目*，成人扫盲项目是BBC的一个早期项目，内容包括电视剧和辅助课程，帮助了200万人提高他们的阅读能力。
 
-The producers behind the _Computer Literacy Project_ were keen for the TV series to feature “hands-on” examples that viewers could try on their own if they had a microcomputer at home. These examples would have to be in BASIC, since that was the language (really the entire shell) used on almost all microcomputers. But the producers faced a thorny problem: Microcomputer manufacturers all had their own dialects of BASIC, so no matter which dialect they picked, they would inevitably alienate some large fraction of their audience. The only real solution was to create a new BASIC—BBC BASIC—and a microcomputer to go along with it. Members of the British public would be able to buy the new microcomputer and follow along without worrying about differences in software or hardware.
+*计算机扫盲项目*背后的制作人希望在电视系列节目中展示“动手实践”的例子，如果观众家里有一台微型计算机，就可以自己尝试。这些例子必须使用BASIC语言，因为那是几乎所有微型计算机上使用的语言（实际上是整个外壳）。但制作人面临着一个棘手的问题：不同微型计算机制造商使用的BASIC语言不同，所以无论他们选择哪种，都会不可避免地影响一部分观众。唯一真正的解决办法是创建一个新的BASIC语言——BBC BASIC——以及一个与之配套的微型计算机。英国公众将能够购买这种新的微型计算机，跟着节目操作，不必担心软件和硬件的差异。
 
-The TV producers and presenters at the BBC were not capable of building a microcomputer on their own. So they put together a specification for the computer they had in mind and invited British microcomputer companies to propose a new machine that met the requirements. The specification called for a relatively powerful computer because the BBC producers felt that the machine should be able to run real, useful applications. Technical consultants for the _Computer Literacy Project_ also suggested that, if it had to be a BASIC dialect that was going to be taught to the entire nation, then it had better be a good one. (They may not have phrased it exactly that way, but I bet that’s what they were thinking.) BBC BASIC would make up for some of BASIC’s usual shortcomings by allowing for recursion and local variables.[6][8]
+BBC的电视制作人和主持人自己没有能力建造微型计算机。因此，他们为心目中的计算机制定了规格，邀请英国微型计算机公司设计符合要求的新机器。这一规格下的计算机功能相对强大，因为BBC的制作人认为，这种计算机要能运行真正实用的应用程序。*计算机扫盲项目*的技术顾问还建议，既然这个计算机使用的是要教给全国人民的BASIC语言，那么这种BASIC语言最好是好用的。(他们可能没有完全像这样措辞，但我打赌他们就是这样想的)。BBC BASIC将允许递归和局部变量，弥补BASIC语言的常见的一些缺点[6][8]。
 
-The BBC eventually decided that a Cambridge-based company called Acorn Computers would make the BBC Micro. In choosing Acorn, the BBC passed over a proposal from Clive Sinclair, who ran a company called Sinclair Research. Sinclair Research had brought mass-market microcomputing to the UK in 1980 with the Sinclair ZX80. Sinclair’s new computer, the ZX81, was cheap but not powerful enough for the BBC’s purposes. Acorn’s new prototype computer, known internally as the Proton, would be more expensive but more powerful and expandable. The BBC was impressed. The Proton was never marketed or sold as the Proton because it was instead released in December 1981 as the BBC Micro, also affectionately called “The Beeb.” You could get a 16k version for £235 and a 32k version for £335.
+BBC最终决定由一家名为Acorn计算机的剑桥公司来制造BBC Micro。BBC选择了Acorn，放弃了Sinclair Research公司经营者Clive Sinclair的提案。1980年，Sinclair Research公司推出的Sinclair ZX80打开了英国微型计算机的大众市场。Sinclair的新计算机ZX81很便宜，但功能不够强大，无法满足BBC的需求。Acorn的新原型计算机内部代号Proton，价格更贵，但功能更强大，可以扩展，令BBC的人员印象深刻。Proton并未以Proton的名字上市或销售，而是在1981年12月以“BBC Micro”的名称发布，也被亲切地称为“The Beeb”。16K版本售价为235英镑，32K版本售价为335英镑。
 
-In 1980, Acorn was an underdog in the British computing industry. But the BBC Micro helped establish the company’s legacy. Today, the world’s most popular microprocessor instruction set is the ARM architecture. “ARM” now stands for “Advanced RISC Machine,” but originally it stood for “Acorn RISC Machine.” ARM Holdings, the company behind the architecture, was spun out from Acorn in 1990.
+1980年，Acorn在英国计算机行业中处于劣势，但BBC Micro让该公司对行业发展产生了影响。今天，世界上最流行的微处理器指令集是ARM架构。“ARM”现在代表“Advanced RISC Machine”，但它最初代表的是“Acorn RISC Machine”。该架构背后的ARM控股公司是1990年从Acorn脱离出来的。
 
-![Picture of the BBC Micro.][9] _A bad picture of a BBC Micro, taken by me at the Computer History Museum
-in Mountain View, California._
+![Picture of the BBC Micro.][9] _我在加州山景城计算机历史博物馆拍的一张BBC Micro的照片_
 
 ### The Computer Programme
 
